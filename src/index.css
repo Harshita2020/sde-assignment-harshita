@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+body {
+  font-family: 'Poppins', ui-sans-serif, system-ui;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+/* src/style.css (append) */
+
+/* make scroll smooth for snap transitions */
+html, body, #root {
+  height: 100%;
+}
+
+/* optional: visually hide default overscroll glow on some mobile browsers */
+body {
+  overscroll-behavior-y: contain;
+}
+
+/* small helper to slightly reduce snap jump on some browsers */
+.scroll-snap-fix {
+  scroll-padding-top: 20px;
+}

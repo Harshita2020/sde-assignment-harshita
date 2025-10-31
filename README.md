@@ -1,16 +1,61 @@
-# React + Vite
+Speak Tutor — Frontend Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my submission for the Software Engineer Assignment by Academically Global.
+The goal was to recreate the reference UI (desktop & mobile videos) using React, Tailwind, and Framer Motion with pixel-perfect responsiveness and animations.
 
-Currently, two official plugins are available:
+🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React (Vite)
 
-## React Compiler
+Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Framer Motion
 
-## Expanding the ESLint configuration
+Google Fonts (Poppins)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚙️ Setup
+git clone https://github.com/Harshita2020/sde-assignment-harshita.git
+cd sde-assignment-harshita.git
+npm install
+npm run dev
+
+
+Then open the local URL (usually http://localhost:5173
+).
+
+📁 Structure
+src/
+ ┣ components/
+ ┃ ┣ Section.jsx
+ ┃ ┣ FeatureCard.jsx
+ ┃ ┣ TextBlock.jsx
+ ┃ ┗ Testimonial.jsx
+ ┣ sections/
+ ┃ ┣ SectionOne.jsx
+ ┃ ┣ SectionTwo.jsx
+ ┃ ┗ SectionThree.jsx
+ ┣ App.jsx
+ ┣ main.jsx
+ ┗ style.css
+
+✨ Features
+
+Fully responsive layout
+
+Scroll-snap animations (each section slides up smoothly)
+
+Built with modern Tailwind CLI integration
+
+Clean, minimal component architecture
+
+🧩 Notes
+
+Fonts via Google Fonts (Poppins)
+
+Tailwind set up using @tailwindcss/vite
+
+Design replicated from provided videos (Web.mov & Mobile.mov)
+
+👩‍💻 Author
+
+Harshita Adya
